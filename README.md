@@ -6,11 +6,11 @@ To run our code first:
 - run schema.sql and diff_timestamps.sql and PerformanceMeasures.sql using Oracle
 - Under Project\src\PerformanceMeasures:
 	- you need to establish your connection in Connect_database.java
-	- Then, run main.java :
-		- First, call parsing function with your log file in (.mxml) format in ParsingMXML.java.
-		- Second, call any function inside ParsingMXML.java. in order to calculate performance measures (i.e,effective time).
-		- Third, build your RPST using RPST.java
-		- Fourth, call caseEffectiveTime with rpst argument using CET.java
+	- Then, run main.java, you can find an example that enables the following:
+		- A <b>parsing</b> function with your log file in (.mxml) format in ParsingMXML.java.
+		- Get several indicators by calling any function (i.e,effective time) inside ParsingMXML.java. This will calculate performance measures.
+		- Build your RPST using RPST.java
+		- Call <b>caseEffectiveTime</b> with rpst argument using CET.java.
 	
 
 
